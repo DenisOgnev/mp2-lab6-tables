@@ -1,0 +1,19 @@
+﻿  main.cpp
+c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\main.cpp(106): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(135): warning C4018: >: несоответствие типов со знаком и без знака
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(128): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\main.cpp(126): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Table<int,int>::print(void)"
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\main.cpp(40): note: выполняется компиляция ссылки на экземпляр шаблон класс "Table<int,int>"
+c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(141): warning C4018: >: несоответствие типов со знаком и без знака
+c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(28): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(22): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(135): note: выполняется компиляция ссылки на экземпляр шаблон класс "Record<Key,Data>"
+          with
+          [
+              Key=int,
+              Data=int
+          ]
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(128): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\main.cpp(126): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Table<int,int>::print(void)"
+c:\users\denis\desktop\учеба\программирование\mp2-lab6-tables\mp2-lab6-tables\table.h(32): warning C4018: <: несоответствие типов со знаком и без знака
+  mp2-lab6-tables.vcxproj -> C:\Users\denis\Desktop\учеба\программирование\mp2-lab6-tables\Debug\mp2-lab6-tables.exe
