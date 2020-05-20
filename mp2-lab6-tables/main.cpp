@@ -4,6 +4,7 @@
 #include <typeinfo>
 #include <string>
 #include "table.h"
+#include "hashTable.h"
 
 using namespace std;
 
@@ -37,7 +38,7 @@ int main()
 
 	//cout << endl;
 
-	Table<int, int> test(10);
+	/*Table<int, int> test(10);
 	test.Add(5, 5);
 	SortTable<int, int> stest(10);
 
@@ -125,7 +126,26 @@ int main()
 	cout << "Usual table:\n";
 	t2.print();
 	cout << "Sorted table:\n";
-	st3.print();
+	st3.print();*/
+
+	HashTable<string, int> ht2(9, false);
+	HashTable<int, int> ht1(5, false);
+	ht1.add(1, 1);
+	ht1.add(2, 2);
+	ht1.add(3, 3);
+	ht1.add(6, 4);
+
+	ht2.add("123", 1);
+	ht2.add("321", 2);
+	ht2.add("231", 3);
+	ht2.add("132", 4);
+
+	cout << ht2.find("123") << "\n\n";
+	ht2.del("123");
+
+	ht2.print();
+	cout << "\n\n";
+	ht1.print();
 
 	system("pause");
 }
